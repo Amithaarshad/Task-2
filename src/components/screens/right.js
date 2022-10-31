@@ -1,9 +1,9 @@
 import React from 'react'
 
-function right() {
+function Right() {
   return (
-    <div>right</div>
+    <div>R</div>
   )
 }
 
-export default right
+export default Right
