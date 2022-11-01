@@ -87,10 +87,11 @@ function Wallet() {
 export default Wallet;
 
 const Maincontainer = styled.section`
-  width: 30%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background: #f1f1f1;
 `;
 const Wrapper = styled.div``;
 const Imagecontainer = styled.h1`
@@ -109,19 +110,25 @@ const Items = styled.li`
 `;
 const Itemlogo = styled.div``;
 const Img = styled.img`
-  width: 70%;
+  width: 60%;
 `;
 const Itemtype = styled.div``;
 const Itemtitle = styled.h3`
+  color: #8e8e8e;
   margin-left: 10px;
   font-size: 15px;
+  :hover {
+    color: #000;
+  }
 `;
 const Dot = styled.div`
-  width: 100%;
+  width: 50%;
   margin-left: 25%;
 `;
 const BottomItems = styled.div`
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   margin-left: 30px;
+  border-top: 1px solid #000;
+  padding-top: 10px;
 `;
