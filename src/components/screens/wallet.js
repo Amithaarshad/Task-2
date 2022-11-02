@@ -92,11 +92,19 @@ const Maincontainer = styled.section`
   flex-direction: column;
   justify-content: space-between;
   background: #f1f1f1;
+
+  @media all and (max-width:768px){
+    display: none;
+  }
 `;
 const Wrapper = styled.div``;
 const Imagecontainer = styled.h1`
   display: inline-block;
   width: 180px;
+
+  @media all and (max-width: 980px) {
+    width: 120px;
+  }
 `;
 const Logoimg = styled.img`
   width: 100%;
@@ -138,4 +146,8 @@ const BottomItems = styled.div`
   margin-left: 30px;
   border-top: 1px solid #000;
   padding-top: 10px;
+
+  @media all and (max-width: 980px) {
+    display: none;
+  }
 `;

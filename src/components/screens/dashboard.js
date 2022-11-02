@@ -152,6 +152,14 @@ export default Dashboard;
 const Maincontainer = styled.section`
   margin-left: 10px;
   width: 40%;
+
+  @media all and (max-width: 768px) {
+    width: 50%;
+  }
+  @media all and (max-width: 640px) {
+    width: 100%;
+  }
+
 `;
 
 const Wrapper = styled.div``;
@@ -163,6 +171,10 @@ const Head = styled.h1`
   margin-left: 15px;
   padding-top: 20px;
   font-weight: bold;
+
+  @media all and (max-width: 980px) {
+    padding-top: 10px;
+  }
 `;
 const Items = styled.ul`
   display: flex;
@@ -182,6 +194,9 @@ const Itemtitle = styled.li`
   @media all and (max-width: 1280px) {
     font-size: 10px;
   }
+  @media all and (max-width: 980px) {
+    font-size: 7px;
+  }
 `;
 const Itemamount = styled.div`
   font-size: 25px;
@@ -190,12 +205,19 @@ const Itemamount = styled.div`
   @media all and (max-width: 1050px) {
     font-size: 20px;
   }
+  @media all and (max-width: 980px) {
+    font-size: 15px;
+  }
 `;
 const Subcontainer = styled.section`
   box-shadow: 0 0 15px -11px rgb(0 0 0 / 70%);
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 20px;
+
+  @media all and (max-width: 768px) {
+    margin-bottom: 35px;
+  }
 `;
 const Title = styled.h2`
   font-size: 20px;
@@ -241,9 +263,20 @@ const Itemtype = styled.li`
   @media all and (max-width: 1050px) {
     padding: 6px 15px 15px 6px;
   }
+  @media all and (max-width: 980px) {
+    padding: 2px 10px 10px 2px;
+  }
 `;
-const Itemhead = styled.div``;
-const Img = styled.img``;
+const Itemhead = styled.div`
+  width: 20px;
+
+  @media all and (max-width: 980px) {
+    width: 15px;
+  }
+`;
+const Img = styled.img`
+  width: 100%;
+`;
 const Itemnum = styled.div`
   font-size: 25px;
   padding-top: 10px;
@@ -253,16 +286,27 @@ const Itemnum = styled.div`
     font-size: 20px;
     padding-top: 7px;
   }
+  @media all and (max-width: 980px) {
+    font-size: 15px;
+  }
 `;
 const Itemname = styled.div`
   font-size: 12px;
   font-weight: 600;
+
+  @media all and (max-width: 980px) {
+    font-size: 9px;
+  }
 `;
 const Statics = styled.section`
   box-shadow: 0 0 15px -11px rgb(0 0 0 / 70%);
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 15px;
+
+  @media all and (max-width: 980px) {
+    margin-bottom: 22px;
+  }
 `;
 const Topcontainer = styled.div`
   display: flex;
@@ -279,6 +323,13 @@ const Select = styled.select`
   padding: 5px;
   width: 33%;
   font-size: 15px;
+
+  @media all and (max-width: 1050px) {
+    font-size: 12px;
+  }
+  @media all and (max-width: 768px) {
+    font-size: 10px;
+  }
 `;
 const Option = styled.option``;
 const Staticitem = styled.div``;
@@ -302,10 +353,18 @@ const Upimage = styled.img`
 const Income = styled.div`
   font-size: 10px;
   margin-left: 20px;
+
+  @media all and (max-width: 980px) {
+    font-size: 8px;
+  }
 `;
 const Amount = styled.span`
   font-size: 25px;
   font-weight: 600;
+
+  @media all and (max-width: 980px) {
+    font-size: 18px;
+  }
 `;
 const Rangeone = styled.div`
   display: flex;

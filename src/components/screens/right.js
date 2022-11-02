@@ -114,6 +114,13 @@ export default Right;
 
 const Maincontainer = styled.section`
   width: 43%;
+
+  @media all and (max-width: 768px) {
+    width: 50%;
+  }
+  @media all and (max-width: 640px) {
+    width: 100%;
+  }
 `;
 const Wrapper = styled.section``;
 const Topcontainer = styled.div``;
@@ -157,9 +164,17 @@ const LeftAnalytics = styled.div`
   display: flex;
   justify-content: space-between;
   font-size: 15px;
+
+  @media all and (max-width: 768px) {
+    font-size: 10px;
+  }
 `;
 const IncomeAnalytic = styled.div`
   margin-right: 40px;
+
+  @media all and (max-width: 768px) {
+    margin-right: 20px;
+  }
 `;
 const SaveAnalytic = styled.div``;
 const Graph = styled.div`
@@ -171,6 +186,9 @@ const Graph = styled.div`
   @media all and (max-width: 1280px) {
     height: 230px;
     margin-bottom: 13px;
+  }
+  @media all and (max-width: 768px) {
+    height: 170px;
   }
 `;
 const Imagegraph = styled.img`
@@ -210,6 +228,9 @@ const Select = styled.select`
   @media all and (max-width: 1050px) {
     font-size: 12px;
   }
+  @media all and (max-width: 768px) {
+    font-size: 8px;
+  }
 `;
 const Option = styled.option``;
 const Translist = styled.li`
@@ -225,6 +246,10 @@ const Upimage = styled.img`
   background-color: #000;
   padding: 10px;
   border-radius: 6px;
+
+  @media all and (max-width: 1050px) {
+    padding: 5px;
+  }
 `;
 const Income = styled.div`
   width: 45%;
@@ -233,7 +258,10 @@ const Income = styled.div`
   line-height: 1;
 
   @media all and (max-width: 1050px) {
-    font-size: 12px;
+    font-size: 15px;
+  }
+  @media all and (max-width: 980px) {
+    font-size: 14px;
   }
 `;
 const Date = styled.span`
