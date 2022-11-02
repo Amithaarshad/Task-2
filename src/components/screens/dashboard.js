@@ -178,13 +178,18 @@ const Item = styled.li`
 `;
 const Itemtitle = styled.li`
   font-size: 12px;
+
+  @media all and (max-width: 1280px){
+    font-size: 10px;
+
+  }
 `;
 const Itemamount = styled.div`
   font-size: 25px;
   padding-top: 10px;
 `;
 const Subcontainer = styled.section`
-  box-shadow: 0 0 53px -11px rgb(0 0 0 / 70%);
+  box-shadow: 0 0 15px -11px rgb(0 0 0 / 70%);
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 20px;
@@ -213,11 +218,23 @@ const Itemlist = styled.ul`
   margin-right: 14px;
   /* width: 80%; */
   margin-left: 20px;
+
+  @media all and (max-width: 1380px) {
+    margin-left: 15px;
+  }
 `;
 const Itemtype = styled.li`
   border-radius: 10px;
   padding: 20px 40px 20px 40px;
   padding-left: 16px;
+
+  @media all and (max-width: 1380px) {
+    padding-left: 10px;
+  }
+  @media all and (max-width: 1280px){
+    padding-left: 5px;
+    padding: 8px 18px 18px 8px;
+  }
 `;
 const Itemhead = styled.div``;
 const Img = styled.img``;
@@ -225,13 +242,18 @@ const Itemnum = styled.div`
   font-size: 25px;
   padding-top: 10px;
   font-weight: bold;
+
+  @media all and (max-width: 1380px) {
+    font-size: 20px;
+    padding-top: 7px;
+  }
 `;
 const Itemname = styled.div`
   font-size: 12px;
   font-weight: 600;
 `;
 const Statics = styled.section`
-  box-shadow: 0 0 53px -11px rgb(0 0 0 / 70%);
+  box-shadow: 0 0 15px -11px rgb(0 0 0 / 70%);
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 15px;
@@ -263,6 +285,13 @@ const Upimage = styled.img`
   background-color: #000;
   padding: 10px;
   border-radius: 6px;
+
+  @media all and (max-width: 1350px){
+    padding: 21px;
+  }
+  @media all and (max-width: 1280px){
+    padding: 15px;
+  }
 `;
 const Income = styled.div`
   font-size: 10px;

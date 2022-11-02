@@ -138,7 +138,7 @@ const Input = styled.input`
   margin-left: 10px;
 `;
 const Analytics = styled.section`
-  box-shadow: 0 0 51px -25px rgb(0 0 0 / 65%);
+  box-shadow: 0 0 40px -25px rgb(0 0 0 / 65%);
   margin-top: 55px;
   padding: 20px;
   border-radius: 10px;
@@ -167,17 +167,28 @@ const Graph = styled.div`
   height: 270px;
   width: 100%;
   padding-top: 9px;
+
+  @media all and (max-width: 1280px) {
+    height: 230px;
+    margin-bottom: 13px;
+  }
 `;
 const Imagegraph = styled.img`
   width: 100%;
   height: 100%;
 `;
 const Transaction = styled.section`
-  box-shadow: 0 0 53px -11px rgb(0 0 0 / 70%);
+  box-shadow: 0 0 15px -11px rgb(0 0 0 / 70%);
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 15px;
   height: 293px;
+
+  @media all and (max-width: 1280px) {
+    height: 292px;
+    padding: 8px;
+    margin-bottom: 5px;
+  }
 `;
 const Toptrans = styled.div`
   display: flex;
