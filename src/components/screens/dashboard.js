@@ -151,7 +151,7 @@ export default Dashboard;
 
 const Maincontainer = styled.section`
   margin-left: 10px;
-  width: 35%;
+  width: 40%;
 `;
 
 const Wrapper = styled.div``;
@@ -184,7 +184,7 @@ const Itemamount = styled.div`
   padding-top: 10px;
 `;
 const Subcontainer = styled.section`
-  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 53px -11px rgb(0 0 0 / 70%);
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 20px;
@@ -192,6 +192,7 @@ const Subcontainer = styled.section`
 const Title = styled.h2`
   font-size: 20px;
   font-weight: bold;
+  margin-left: 20px;
 `;
 const Main = styled.div`
   display: flex;
@@ -202,14 +203,16 @@ const Left = styled.h3`
   font-size: 13px;
   text-decoration: underline;
   color: #8e8e8e;
+  margin-right: 20px;
 `;
 const Itemlist = styled.ul`
   display: flex;
   padding-top: 20px;
   justify-content: space-between;
   margin-bottom: 20px;
-  margin-right: 10px;
+  margin-right: 14px;
   /* width: 80%; */
+  margin-left: 20px;
 `;
 const Itemtype = styled.li`
   border-radius: 10px;
@@ -228,10 +231,10 @@ const Itemname = styled.div`
   font-weight: 600;
 `;
 const Statics = styled.section`
-  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 53px -11px rgb(0 0 0 / 70%);
   border-radius: 10px;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 `;
 const Topcontainer = styled.div`
   display: flex;
@@ -245,6 +248,9 @@ const Select = styled.select`
   border: 1px solid #8e8e8e;
   border-radius: 20px;
   color: #8e8e8e;
+  padding: 5px;
+  width: 33%;
+  font-size: 15px;
 `;
 const Option = styled.option``;
 const Staticitem = styled.div``;
