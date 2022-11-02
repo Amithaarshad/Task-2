@@ -179,14 +179,17 @@ const Item = styled.li`
 const Itemtitle = styled.li`
   font-size: 12px;
 
-  @media all and (max-width: 1280px){
+  @media all and (max-width: 1280px) {
     font-size: 10px;
-
   }
 `;
 const Itemamount = styled.div`
   font-size: 25px;
   padding-top: 10px;
+
+  @media all and (max-width: 1050px) {
+    font-size: 20px;
+  }
 `;
 const Subcontainer = styled.section`
   box-shadow: 0 0 15px -11px rgb(0 0 0 / 70%);
@@ -231,9 +234,12 @@ const Itemtype = styled.li`
   @media all and (max-width: 1380px) {
     padding-left: 10px;
   }
-  @media all and (max-width: 1280px){
+  @media all and (max-width: 1280px) {
     padding-left: 5px;
     padding: 8px 18px 18px 8px;
+  }
+  @media all and (max-width: 1050px) {
+    padding: 6px 15px 15px 6px;
   }
 `;
 const Itemhead = styled.div``;
@@ -286,11 +292,11 @@ const Upimage = styled.img`
   padding: 10px;
   border-radius: 6px;
 
-  @media all and (max-width: 1350px){
+  @media all and (max-width: 1350px) {
     padding: 21px;
   }
-  @media all and (max-width: 1280px){
-    padding: 15px;
+  @media all and (max-width: 1280px) {
+    padding: 6px;
   }
 `;
 const Income = styled.div`

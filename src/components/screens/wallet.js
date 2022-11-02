@@ -111,6 +111,10 @@ const Items = styled.li`
 const Itemlogo = styled.div``;
 const Img = styled.img`
   width: 60%;
+
+  @media all and (max-width: 1280px) {
+    width: 70%;
+  }
 `;
 const Itemtype = styled.div``;
 const Itemtitle = styled.h3`
@@ -119,6 +123,9 @@ const Itemtitle = styled.h3`
   font-size: 15px;
   :hover {
     color: #000;
+  }
+  @media all and (max-width: 1280px) {
+    font-size: 13px;
   }
 `;
 const Dot = styled.div`

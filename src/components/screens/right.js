@@ -206,6 +206,10 @@ const Select = styled.select`
   padding: 5px;
   width: 30%;
   font-size: 15px;
+
+  @media all and (max-width: 1050px) {
+    font-size: 12px;
+  }
 `;
 const Option = styled.option``;
 const Translist = styled.li`
@@ -227,6 +231,10 @@ const Income = styled.div`
   font-size: 19px;
   font-weight: bold;
   line-height: 1;
+
+  @media all and (max-width: 1050px) {
+    font-size: 12px;
+  }
 `;
 const Date = styled.span`
   font-size: 10px;
