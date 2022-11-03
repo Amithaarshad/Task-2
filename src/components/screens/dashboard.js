@@ -159,7 +159,6 @@ const Maincontainer = styled.section`
   @media all and (max-width: 640px) {
     width: 100%;
   }
-
 `;
 
 const Wrapper = styled.div``;
@@ -186,7 +185,14 @@ const Items = styled.ul`
   border-radius: 8px;
 `;
 const Item = styled.li`
-  margin-left: 20px;
+  margin-left: 18px;
+  width: 30%;
+  border-right: 1px solid;
+
+  &:last-child {
+    border: none;
+    width: 15%;
+  }
 `;
 const Itemtitle = styled.li`
   font-size: 12px;
@@ -199,7 +205,7 @@ const Itemtitle = styled.li`
   }
 `;
 const Itemamount = styled.div`
-  font-size: 25px;
+  font-size: 22px;
   padding-top: 10px;
 
   @media all and (max-width: 1050px) {
@@ -266,6 +272,12 @@ const Itemtype = styled.li`
   @media all and (max-width: 980px) {
     padding: 2px 10px 10px 2px;
   }
+  @media all and (max-width: 640px) {
+    padding: 15px 30px 15px 30px;
+  }
+  @media all and (max-width: 480px) {
+    padding: 8px 12px 12px 8px;
+  }
 `;
 const Itemhead = styled.div`
   width: 20px;
@@ -328,6 +340,12 @@ const Select = styled.select`
     font-size: 12px;
   }
   @media all and (max-width: 768px) {
+    font-size: 10px;
+  }
+  @media all and (max-width: 640px) {
+    font-size: 13px;
+  }
+  @media all and (max-width: 480px) {
     font-size: 10px;
   }
 `;

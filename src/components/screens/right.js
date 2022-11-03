@@ -231,6 +231,12 @@ const Select = styled.select`
   @media all and (max-width: 768px) {
     font-size: 8px;
   }
+  @media all and (max-width: 640px) {
+    font-size: 13px;
+  }
+  @media all and (max-width: 480px) {
+    font-size: 10px;
+  }
 `;
 const Option = styled.option``;
 const Translist = styled.li`

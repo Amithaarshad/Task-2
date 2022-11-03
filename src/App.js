@@ -21,4 +21,8 @@ export default App;
 const Container = styled.div`
   display: flex;
   width: 100%;
+
+  @media all and (max-width: 640px) {
+    flex-wrap: wrap;
+  }
 `;
